@@ -59,7 +59,7 @@ Implementation Comments:
 	- Website navigation:
 		- Navigation planing, find all routs and levels
 			- View, Add, Modify, Delete
-		- Horizontal vs. vertical
+		- Horizontal vs. vertical, unconventional
 		- language, labels, A/B testing (https://www.optimizely.com/optimization-glossary/ab-testing/?otm_source=Google&otm_medium=cpc&otm_content=WIABT&otm_campaign=G_WW_Search_Shiva&_bt=43706695412&gclid=CO-Jz4nZ6cACFYJ8vQodQ7gAgA)
 		- Use web conventions
 		- Primary navigation
@@ -106,5 +106,18 @@ Implementation Comments:
 				- Creating services:
 					- Components shouldnt fetch data directly.
 					 They should focus on presenting data and delegate data access to a service
-				- @injectabe() servises
+					- @injectabe() services to inject it into a component
+					- Providers
+					- Inject a service into the component in the constructor and call functions in ngOnInit()
+					- Add services to services
+				- Create asynchrounous operations(get data) using Observables and subscribe to service
+				- Routing using AppRoutingModule
+					- redirective, parameterized and normal routes
+				- Added navigation
+				- HTTP dependencies
+				- Loading data from an in-memory web API
+				- Created post(), put() and delete() methods
+				- Using Observables for searching functions
+
+
 
