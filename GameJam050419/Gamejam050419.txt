@@ -1,0 +1,110 @@
+Local Game Jam - Feature jam, 16:00 05-04-2019 - 16:00 07-04-2019
+
+Precautions:
+	- Explore spesific aspects related to another project
+		- no "double-dipping", meaning direct implementation into existing project
+
+	- Compatible with setup in bachelor:
+		- (twig, php)
+		- (html, css, bootstrap)
+		- DreamFactory API
+
+Ideas:
+	- For bachelor:
+		- Explore different ways to display administrative views for database manipulations
+
+			What I need:
+				- Page for insertion to database
+				- Page for viewing content of database
+				- Page for modification og database data, including deletion
+
+				- Loaders and feedback
+
+			Starting point
+				- What does database user interfaces normally look like?
+				- Research templates and patterns for administrative views
+				- Templates to use in bootstrap or other technologies
+
+		- Web component?
+
+
+What to use:
+	- Bootstrap Vuejs
+		- Looks to be more for for complete dashboards
+	- Xtreme Admin – Powerful Bootstrap 4 Dashboard Template
+	- Bootstrap templates for ReactJS
+		- https://www.codeinwp.com/blog/best-free-bootstrap-templates-for-reactjs/
+	- Bootstrap tab panel
+		- https://codepen.io/wizly/pen/BlKxo
+		- https://bootsnipp.com/tags/tabs
+	- Other Bootstrap navigators https://getbootstrap.com/docs/4.0/components/navs/
+
+Implementation Comments:
+
+	- Bootstrap Navs:
+		- Simple, fast to implement, easy to change
+		- Some issues with horizontal tabs, not getting them to work as in documentation
+
+	- Bootstrap Nav example from codepen:
+		- Very close to the standard Bootstrap Nav, exept uses own script
+		- harder to edit and understand, but still pretty simple
+
+	- Bootstrap Vue Template - Paper Dahboard: 
+		- Easy to get running
+		- Difficult to modify template
+		- Need time to figure out how it works
+		- Looks nice
+		- Found the same template for React and Angular
+
+	- Website navigation:
+		- Navigation planing, find all routs and levels
+			- View, Add, Modify, Delete
+		- Horizontal vs. vertical
+		- language, labels, A/B testing (https://www.optimizely.com/optimization-glossary/ab-testing/?otm_source=Google&otm_medium=cpc&otm_content=WIABT&otm_campaign=G_WW_Search_Shiva&_bt=43706695412&gclid=CO-Jz4nZ6cACFYJ8vQodQ7gAgA)
+		- Use web conventions
+		- Primary navigation
+		- Footer for contact info, documentation etc.
+
+		- Normally web navigation is more crutial when designing sites that will be used by external users. To impress, make them stay and continue to use the site. Navigation is important to guide the user so that they know how much content is available and where to find it. Without navigation, a site looses all sense of structure and organisation. 
+
+	Displaying contents:
+
+	
+	- Javascript frameworks:
+		- React
+		- Angular
+		- Vue.js
+		- Node.js
+		- Polymer
+		- Ember.js
+		- Backbone.js
+
+	Learning angular:
+		- Tour of heroes
+			- What I have learned:
+				- Set up Angular environment
+				- Set up workspace and an initial application
+				- Serve an application
+				- Generate components using the CLI:
+					- Create component properties/objects and view them
+					- Create component functions
+				- Views:
+					- Use pipe operators
+					- Create component views
+					- Show the component views
+					- Two way data binding with the ngModel directive
+				-Import modules:
+					- FormsModule
+				- Create classes
+				- Created a ts file witch exports array of objects to be used 
+					in other components
+				- Displaying a list using *ngFor
+				- Styling
+				- Add click event bindings and click event handler
+				- using *ngIf to handle undefined properties
+				- Making parent/child relations between components
+				- Creating services:
+					- Components shouldnt fetch data directly.
+					 They should focus on presenting data and delegate data access to a service
+				- @injectabe() servises
+
